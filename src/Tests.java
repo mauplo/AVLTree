@@ -1,3 +1,9 @@
+
+/**
+ * @author Mau PLO
+ * Class to test the AVLTree implementation
+*/
+
 public class Tests {
     public static void printDivider(){
         System.out.println();
