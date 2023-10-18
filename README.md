@@ -1,18 +1,17 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Implementation of the binary search tree known as AVL. This java project is one of the structures studied at my Advanced Data Structures class. Note: this implementation is probably not the standard.
+Included in the source package:
+* AVLNode
+    * AVLNode is the node used for AVL trees.
+    * They carry an element, also known as key
+    * AVL nodes can have up to 3 connected nodes (at most two children and one parent)
+    * They also carry abalance factor = height right sub tree - height of left subtree. Between 0 and |2|
+* AVLTree
+    * An AVL Tree is a self-balancing BST,
+    * where the height difference of any two child subtrees is at most 1.
+    * AVL trees have O(nlogn) time for search, insertion, and deletion
+* Tests class
+    * Class that can be used to print test trees
+* printAVL
+    * Print Binary Tree in 2-Dimensions by Arnab Kundu
+    * Used for tests of the tree implementation
+    * Slight modification to indclude the balance factor when printing the tree
