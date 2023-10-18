@@ -1,3 +1,4 @@
+##AVL TREE IMPLEMENTATION
 Implementation of the binary search tree known as AVL. This java project is one of the structures studied at my Advanced Data Structures class. Note: this implementation is probably not the standard.
 Included in the source package:
 * AVLNode
