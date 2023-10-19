@@ -2,8 +2,7 @@
 
 ## Implementation of the binary search tree known as AVL. 
 
-This java project is one of the structures studied at my Advanced Data Structures class. Note: this implementation is probably not the standard.
-Included in the source package:
+This java project is one of the structures studied at my Advanced Data Structures class. Included in the source package:
 
 * AVLNode
     * AVLNode is the node used for AVL trees.
@@ -20,3 +19,5 @@ Included in the source package:
     * Print Binary Tree in 2-Dimensions by Arnab Kundu
     * Used for tests of the tree implementation
     * Slight modification to indclude the balance factor when printing the tree
+
+Note: this implementation is probably not the standard.
